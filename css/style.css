@@ -7,12 +7,24 @@
 /* ---------------------------
         Common Css 
 ----------------------------- */
-
-body {
+* {
 	margin: 0;
 	padding: 0;
 	outline: 0;
+}
+
+body {
 	font-family: "Poppins", sans-serif;
+}
+
+.primary-button {
+	text-decoration: none;
+	padding: 10px 24px;
+	color: #fff;
+	background-color: #e02c6d;
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 25px;
 }
 
 /* ---------------------------
@@ -21,10 +33,11 @@ body {
 header {
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	margin: 50px 0;
 }
 
-.header-container {
+.header-container,
+#banner_section {
 	width: 1200px;
 	display: flex;
 	justify-content: space-between;
@@ -47,7 +60,7 @@ nav > ul {
 }
 
 nav > ul li {
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 nav > ul li a {
@@ -56,9 +69,50 @@ nav > ul li a {
 	font-weight: 600;
 	font-size: 16px;
 }
+
 /* ---------------------------
-        Common Css 
+        Banner Section Css 
 ----------------------------- */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner-content {
+	width: 50%;
+}
+
+.baner-title {
+	font-size: 52px;
+	font-weight: 700;
+	color: #3a3a3a;
+	line-height: 70px;
+}
+
+.banner-content p {
+	font-size: 16px;
+	color: #3a3a3a;
+	margin-bottom: 20px;
+}
+
+.banner-photo {
+	width: 50%;
+	background-image: url("../images/banner/Circle\ design.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.banner-photo img {
+	width: 80%;
+}
 
 /* ---------------------------
         Common Css 
