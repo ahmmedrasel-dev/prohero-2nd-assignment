@@ -17,6 +17,11 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+.container {
+	width: 1047px;
+	/* background-color: aquamarine; */
+}
+
 .primary-button {
 	text-decoration: none;
 	padding: 10px 24px;
@@ -115,8 +120,37 @@ main {
 }
 
 /* ---------------------------
-        Common Css 
+        Brand Part Css 
 ----------------------------- */
+#brand_section {
+	margin: 80px 0;
+}
+.brand {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	align-items: center;
+	position: relative;
+}
+
+.brand::before {
+	position: absolute;
+	content: "";
+	bottom: -15px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-image: linear-gradient(258deg, #e8e8e8a6, #919191, #e8e8e8a6);
+}
+
+.brand::after {
+	position: absolute;
+	content: "";
+	top: -15px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-image: linear-gradient(258deg, #e8e8e8a6, #919191, #e8e8e8a6);
+}
 
 /* ---------------------------
         Common Css 
