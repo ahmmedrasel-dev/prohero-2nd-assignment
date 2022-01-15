@@ -231,6 +231,10 @@ main {
 	padding: 10px 0;
 }
 
+.product_content p span {
+	display: block;
+}
+
 .rating span {
 	position: relative;
 	left: 5%;
