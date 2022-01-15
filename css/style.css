@@ -243,8 +243,57 @@ main {
 ----------------------------- */
 
 /* ---------------------------
-        Common Css 
+        Footer Section Css 
 ----------------------------- */
+
+footer {
+	background-color: #0a0826;
+	padding: 50px 0;
+}
+
+.footer_container {
+	color: #fff;
+	text-align: center;
+}
+
+.footer_container .copyright span {
+	display: block;
+}
+
+.footer_container h3 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.copyright {
+	padding: 15px 0;
+	font-size: 14px;
+}
+
+.social_link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_link a {
+	text-decoration: none;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	margin: 0 8px;
+}
+
+.social_link a i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	transform: translate(-50%, -50%);
+}
 
 /* ---------------------------
         Common Css 
