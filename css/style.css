@@ -344,6 +344,11 @@ footer {
 	transform: translate(-50%, -50%);
 }
 
+.social_link a:hover i {
+	color: #e02c6d;
+	transition: all linear 0.3;
+}
+
 /* ---------------------------
       Custome Responsive Css 
 ----------------------------- */
