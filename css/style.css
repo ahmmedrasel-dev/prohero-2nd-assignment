@@ -101,6 +101,19 @@ main {
 	line-height: 70px;
 }
 
+.banner-content a i {
+	padding-left: 10px;
+	position: relative;
+	left: 50px;
+	opacity: 0;
+}
+
+.banner-content a:hover i {
+	opacity: 1;
+	left: 5px;
+	transition: all linear 0.3s;
+}
+
 .banner-content p {
 	font-size: 16px;
 	color: #3a3a3a;
@@ -153,8 +166,77 @@ main {
 }
 
 /* ---------------------------
-        Common Css 
+        Product Part Css 
 ----------------------------- */
+.section_title {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 28px;
+	font-weight: 600;
+}
+.products {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px 20px;
+}
+
+.product {
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 2px 3px 30px #e5e5e5;
+}
+
+.product_title {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.product_price {
+	font-size: 24;
+	font-weight: 400;
+	margin: 10px 0;
+}
+.rating {
+	color: orangered;
+	font-size: 16px;
+}
+
+.product_content p {
+	font-size: 14px;
+	font-weight: 700;
+	color: #787885;
+	padding: 10px 0;
+}
+
+.rating span {
+	position: relative;
+	left: 5%;
+}
+.product_img img {
+	width: 100%;
+}
+
+.seemore {
+	text-align: right;
+	padding: 20px 0;
+}
+
+.seemore a {
+	text-decoration: none;
+	color: #3a3a3a;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.seemore a i {
+	padding-left: 5px;
+}
+
+.seemore a:hover {
+	color: #e02c6d;
+	transition: all linear 0.3;
+}
 
 /* ---------------------------
         Common Css 
